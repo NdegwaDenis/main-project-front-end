@@ -1,0 +1,154 @@
+/* Add your CSS styles here */
+@media screen and (max-width: 600px) {
+    .topnav_back{
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 83px;
+        border-bottom: .5px solid gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(249, 251, 251);
+        
+    }
+
+    .topnav {
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+        width: 90%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+        box-shadow: 0 0 10px rgba(17, 14, 14, 0.2);
+        background-color: rgb(254, 255, 255);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .topnav form {
+        margin: 0;
+    }
+
+    .topnav form label {
+        display: none;
+    }
+
+    .topnav form select {
+        font-size: 16px;
+        padding: 6px 0px;
+        border-left: 0.15px solid #333;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #fff;
+        color: #333;
+        margin-left: 10px;
+    }
+
+    /*----side nav----------*/
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff; /* change the background color to match the top nav */
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #333; /* change the font color to match the top nav */
+        display: block;
+        transition: 0.3s;
+        background-color: #fff; /* change the background color to match the top nav */
+    }
+
+    .sidenav a:hover {
+        color: #00a851; /* change the font color on hover to match the top nav */
+        background-color: #f5f5f5; /* change the background color on hover to match the top nav */
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        }
+
+
+
+    /*   MAIN SECTION */
+    .main-sec{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .view{
+        background-color: #eeeeee;
+        margin-bottom: 10px;
+    }
+
+    .cont-box {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 175px 1fr;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1F1F1;
+        margin-bottom: 8px;
+        border-radius: 5px;
+    }
+
+    .cont-box *{
+        margin: 5px;
+    }
+
+    .cont-box > img {
+        width: 170px;
+        height: 130px;
+        border-radius: 5px;
+    }
+
+    .hostel-nm{
+        font-size:larger;
+        font-family: montserrat;
+        font-weight: 500;
+    }
+
+    .room-desc{
+        color: grey;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .footer-sec{
+        display: flex;
+        flex-direction: column;
+        background-color: gainsboro;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }  
+       
+    body {
+        padding-top: 83px;
+        display:flex;
+        flex-direction: column;
+        min-height: 90vh;
+    }
+}

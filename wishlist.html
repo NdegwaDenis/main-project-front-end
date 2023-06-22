@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile View HTML Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="footericons.css">
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+    <div class="header-sec">
+        <div class="topnav_back">
+            <!-- Top navigation bar -->
+            <div class="topnav">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <form class="form-filter">
+                    <label for="filter-by" class="sr-only">Filter By</label>
+                    <select id="filter-by" placeholder="Filter By">
+                        <option value="All">All Apartments</option>
+                        <option value="single-room">Single Room Apartments</option>
+                        <option value="bedsit">Bedsit Apartments</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    
+    
+        <!--------------side navigation------------>
+        <div id="mySidenav" id='mySidenav' class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+	
+
+    
+    <div class="main-sec">
+        <!-- Add your HTML content here -->
+        <div class="cont-box">
+            <img src="./hostel4.jpg" alt="hostel pictures">
+            <div class="hostel-details">
+                <p class="hostel-nm">Fort Hall</p>
+                <p class="room-desc">description Lorem ipsum, dolor.</p>
+                <p class="post-date">date posted</p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="footer-sec">
+        <div class="center">
+            <div id="social-test">
+                <h2>contact us </h2>
+                <ul class="social">
+                    <li> <i class="fa fa-facebook" aria-hidden="true"> </i>  </li>
+                    <li> <i class="fa fa-twitter" aria-hidden="true"> </i>   </li>
+                    <li> <i class="fa fa-instagram" aria-hidden="true"> </i> </li>
+                    <!--<li> <i class="fa fa-vimeo" aria-hidden="true"> </i>     </li>
+                    <li> <i class="fa fa-behance" aria-hidden="true"> </i>   </li>
+                    <li> <i class="fa fa-dribbble" aria-hidden="true"> </i>  </li>
+                    <li> <i class="fa fa-github" aria-hidden="true"> </i>    </li>
+                    <li> <i class="fa fa-pied-piper" aria-hidden="true"> </i></li>-->
+                </ul>
+            </div>
+        </div>
+        <p>Powered By &#x3a; <a href="Samlon.com">Samlon Hostel</a> </p>
+    </div>
+
+
+    <!-------------javascript-------------------->
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+	  
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+    </script>
+</body>
+</html>

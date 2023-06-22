@@ -1,0 +1,77 @@
+.sec_1{
+    display: flex;
+    flex-direction: column;
+}
+
+img.hostel-pic-view{
+    width: 100%;
+    margin-bottom: 5PX;
+}
+
+.prof_container{
+    display: grid;
+}
+
+.hostel-head{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+}
+
+img.profile-pic{
+    width: 50px;
+    border-radius: 50%;
+    background: red;
+    justify-self: center;
+}
+
+.hostel-view-info{
+    margin-left: 10px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.features *{
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    padding: 1px 4px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.sec_4{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+
+}
+.sec_4 button{
+    width:10rem;
+    height:2rem;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #15DC65;
+    border-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-hd{
+    margin-left: 7px;
+}
+
+#two {
+    background-color: #dca415;
+}

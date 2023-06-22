@@ -1,0 +1,45 @@
+
+  
+  .center {
+    display: table;
+  }
+  
+  #social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+  .social-test h2 {
+      color: #333;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      font-weight: 100;
+    }
+  .social {
+      padding-left: 0px;
+    }
+
+  .social li {
+      color: black;
+      list-style-type: none;
+      display: inline-block;
+      width: 20px;
+      padding: 1%;
+      border: 1px solid rgba(167, 146, 129, 0.4);
+      cursor: pointer;
+      transition: ease .3s;}
+
+  .social  li:hover {
+        color: white;
+        border: 1px solid rgba(167, 146, 129, 1);
+      }
+    
+  
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
